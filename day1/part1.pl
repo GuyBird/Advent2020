@@ -6,7 +6,7 @@ use Data::Dumper;
 
 my $target = 2020;
 
-my $filename = 'day1_input';
+my $filename = 'input';
 open(FH, '<', $filename) or die $!;
 
 my @numbers = <FH>;

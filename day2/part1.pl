@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-my $filename = 'day2_input';
+my $filename = 'input';
 open(FH, '<', $filename) or die $!;
 
 my @passwords = <FH>;
